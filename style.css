@@ -11,11 +11,11 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: right;
-    color: #4b4b4b;
+    color: #c0c0c0;
 }
 
 body {
-    background: url('unfinishedbg.png') no-repeat center center fixed;
+    background: url('unfinished-web-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
 
