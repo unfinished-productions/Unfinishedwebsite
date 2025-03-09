@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #4b4b4b;
+}
+
+body {
+    background: url('unfinishedbg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: right;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    margin-right: -10px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
+}
+
+.tagline, .contact, .location {
+    font-size: 14px;
+    margin-bottom: 20px;
+    max-width: 395px; /*Line spacing works in both mobile and desktop*/
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .tagline, .contact, .location{
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
