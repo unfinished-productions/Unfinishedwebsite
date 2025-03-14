@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     font-family: 'DM Sans', sans-serif;
     display: flex;
-    align-items: bottom;
+    align-items: baseline;
     justify-content: right;
     color: #c0c0c0;
 }
@@ -41,7 +41,7 @@ a:hover {
     position: fixed;
     bottom: 20;
     right: 20;
-    align-items: bottom;
+    align-items: baseline;
     justify-content: right;
     text-align: right;
     padding: 50px;
@@ -61,7 +61,7 @@ h1 {
     max-width: 395px; /*Line spacing works in both mobile and desktop*/
     line-height: 1.5;
     letter-spacing: 0.5px;
-    align-items: center;
+    align-items: baseline;
     justify-content: right;
 }
 
@@ -75,7 +75,7 @@ h1 {
         font-size: 14px;
         text-align: center;
         margin-bottom: 10px;
-        align-items: bottom;
+        align-items: baseline;
         justify-content: right;
     }
 
