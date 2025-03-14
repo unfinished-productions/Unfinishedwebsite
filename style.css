@@ -9,6 +9,9 @@ body, html {
     height: 100%;
     font-family: 'DM Sans', sans-serif;
     color: #c0c0c0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 body {
@@ -33,34 +36,30 @@ a:visited {
 a:hover {
         color: #ffffff;
         border-bottom: 0px solid #ffffff;
-          
+}
+
 .container {
     position: fixed;
-    bottom: 0;
+    bottom: 50px;
     right: 50px;
     text-align: right;
     padding: 50px;
 }
 
 .logo, .tagline, .contact, .instagram {
-    position: fixed;
-    bottom: 0;
-    right: 50px;
-    text-align: right;
-    padding: 50px;   
-    font-size: 14px;
+    max-width: 395px; /*Line spacing works in both mobile and desktop*/
+    margin-bottom: 20px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.5px;
-    max-width: 395px; /*Line spacing works in both mobile and desktop*/
+    
 }
 
 @media (max-width: 768px) {
 
 .logo, .tagline, .contact, .instagram {
         font-size: 14px;
-        text-align: center;
-        bottom: 0;
-        right: 0;
+        text-align: right;
     }
 
 }
