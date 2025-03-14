@@ -53,7 +53,7 @@ h1 {
     margin-right: 0px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
 }
 
-.tagline, .contact, .instagram {
+.logo, .tagline, .contact, .instagram {
     font-size: 14px;
     margin-bottom: 10px;
     max-width: 395px; /*Line spacing works in both mobile and desktop*/
@@ -67,7 +67,7 @@ h1 {
         text-align: center;
     }
 
-    .tagline, .contact, .instagram{
+.logo, .tagline, .contact, .instagram {
         font-size: 14px;
         text-align: center;
         margin-bottom: 10px;
