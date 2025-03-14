@@ -38,9 +38,9 @@ a:hover {
         border-bottom: 0px solid #ffffff;
           
 .container {
-    position: fixed;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    position: flex;
+    bottom: 0;
+    right: 0;
     align-self: flex-end;
     justify-content: right;
     text-align: right;
