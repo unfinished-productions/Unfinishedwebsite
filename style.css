@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     font-family: 'DM Sans', sans-serif;
     display: flex;
-    align-items: center;
+    align-items: bottom;
     justify-content: right;
     color: #c0c0c0;
 }
@@ -35,9 +35,9 @@ h1 {
     margin-right: -10px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
 }
 
-.tagline, .contact, .location {
+.tagline, .contact, .instagram {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     max-width: 395px; /*Line spacing works in both mobile and desktop*/
     line-height: 1.5;
     letter-spacing: 0.5px;
@@ -49,9 +49,10 @@ h1 {
         text-align: center;
     }
 
-    .tagline, .contact, .location{
+    .tagline, .contact, .instagram{
         font-size: 14px;
         text-align: center;
+        margin-bottom: 10px;
     }
 
 }
