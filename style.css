@@ -63,6 +63,11 @@ a:hover {
 
 @media (max-width: 768px) {
 
+body {
+    background: url('https://raw.githubusercontent.com/unfinished-productions/Unfinishedwebsite/refs/heads/main/unfinished-web-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+    
 .container {
     position: fixed;
     bottom: 5px;
