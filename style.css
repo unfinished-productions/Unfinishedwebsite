@@ -19,6 +19,24 @@ body {
     background-size: cover;
 }
 
+a {
+        text-decoration: none;
+}
+
+a:link {
+        color: #c0c0c0;
+        border-bottom: 0px solid #c0c0c0;
+}
+
+a:visited {
+        color: #c0c0c0;
+        border-bottom: 0px solid #c0c0c0;
+}
+      
+a:hover {
+        color: #ffffff;
+        border-bottom: 0px solid #ffffff;
+          
 .container {
     position: fixed;
     bottom: 20;
