@@ -50,7 +50,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 10px;
     margin-bottom: 20px;
-    margin-right: -10px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
+    margin-right: 0px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
 }
 
 .tagline, .contact, .instagram {
