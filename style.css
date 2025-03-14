@@ -41,6 +41,8 @@ a:hover {
     position: fixed;
     bottom: 20;
     right: 20;
+    align-items: bottom;
+    justify-content: right;
     text-align: right;
     padding: 50px;
 }
@@ -50,7 +52,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 10px;
     margin-bottom: 20px;
-    margin-right: 0px; /*Ensures that the title aligns with the other text, despite the kerning/letter-spacing after it*/
+    margin-right: 0px; 
 }
 
 .logo, .tagline, .contact, .instagram {
@@ -59,6 +61,8 @@ h1 {
     max-width: 395px; /*Line spacing works in both mobile and desktop*/
     line-height: 1.5;
     letter-spacing: 0.5px;
+    align-items: center;
+    justify-content: right;
 }
 
 @media (max-width: 768px) {
@@ -71,6 +75,8 @@ h1 {
         font-size: 14px;
         text-align: center;
         margin-bottom: 10px;
+        align-items: bottom;
+        justify-content: right;
     }
 
 }
