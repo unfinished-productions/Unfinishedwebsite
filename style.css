@@ -52,7 +52,7 @@ a:hover {
 .logo, .tagline, .contact, .instagram {
     max-width: 395px; /*Line spacing works in both mobile and desktop*/
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.5px;
     text-align: right;
@@ -64,8 +64,10 @@ a:hover {
 @media (max-width: 768px) {
 
 .logo, .tagline, .contact, .instagram {
-        font-size: 12px;
+        font-size: 14px;
         text-align: right;
+        align-items: flex-end;
+        justify-content: right;
     }
 
 }
